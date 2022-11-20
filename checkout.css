@@ -1,0 +1,131 @@
+body {
+    background-color: lightblue;
+    zoom: 65%;
+}
+
+.mainbox {
+    position: absolute;
+    width: 1700px;
+    height: 900px;
+    left: 250px;
+    top: 175px;
+    background-color: darksalmon;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    top: 110px;
+    left: 825px;
+    z-index: 2;
+    position: absolute;
+}
+
+h2 {
+    font-family: 'Trebuchet MS';
+    top: 185px;
+    left: 700px;
+    z-index: 2;
+    position: absolute;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 350px;
+    top: 325px;
+}
+
+.paymethod {
+    height: 70px;
+    width: 750px;
+    position: absolute;
+    left: 350px;
+    top: 400px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 5px solid black;
+}
+
+
+.paymethod2 {
+    height: 400px;
+    width: 750px;
+    position: absolute;
+    left: 350px;
+    top: 475px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: blue;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    z-index: 3;
+}
+
+.cc h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 425px;
+    top: 485px;
+    z-index: 100;
+    font-size: 20px;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    outline-color: 5px rgb(79, 109, 245);
+    border: 4px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 375px;
+    top: 422.5px;
+}
+
+.dot:hover {
+    background-color: #2883c1;
+}
+
+.paymethod img {
+    height: 62.5px;
+    width: 106.25;
+    position: absolute;
+    left: 80px;
+    top: 5px;
+    z-index:4;
+}
+
+.dot2 {
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    outline-color: 5px rgb(79, 109, 245);
+    border: 4px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 375px;
+    top: 502.5px;
+}
+
+.paymethod2 img {
+    height: 60px;
+    width: 100;
+    position: absolute;
+    left: 480px;
+    top: 15px;
+    z-index:4;
+}
+
+.dot2:hover {
+    background-color: #2883c1;
+}
